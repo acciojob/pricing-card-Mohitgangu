@@ -1,1 +1,65 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* 1. Card: Main container with width, padding, background color, and box-shadow */
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* 2. Image: Styled with a specific width */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* 3. Title: Represented by an H1 tag */
+.card h1 {
+    font-size: 24px;
+    color: #333333;
+    margin: 15px 0 10px 0;
+}
+
+/* 4 & 5. Pricing Information and Description: Enclosed within paragraph tags */
+.card p {
+    color: #666666;
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+.card .price {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+/* 6. Buy Now Button: Button with padding, background color, text color, and border-radius */
+.card button {
+    padding: 10px 20px;
+    background-color: #ff5252;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.card button:hover {
+    background-color: #ff2525;
+}
